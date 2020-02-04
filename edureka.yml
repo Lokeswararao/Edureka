@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Deployment
 metadata:
- name:ngnix-deployment
+ name: ngnix-deployment
 labels:
  app: ngnix
 spec:
@@ -12,7 +12,7 @@ matchLables:
 template:
  metadata:
  labels:
-  app:ngnix
+  app: ngnix
 spec:
 containers:
 - name: ngnix
