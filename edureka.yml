@@ -18,4 +18,4 @@ containers:
 - name: ngnix
   image: ngnix:1.7.9
   ports:
-  - containerPort: 8080
+  - containerPort: 80
